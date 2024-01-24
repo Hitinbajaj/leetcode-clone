@@ -120,7 +120,7 @@ function ProblemDetails() {
       <div className="flex-grow  bg-gray-100 sm:w-1/2 ">
         <Editor
           width="100%"
-          height="590px"
+          height="550px"
           theme="vs-dark"
           defaultLanguage={"c++"}
           defaultValue={"// Code C++ here //"}
