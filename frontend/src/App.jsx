@@ -16,7 +16,7 @@ function App() {
 
   return (
       <div className="flex flex-col h-screen">
-      <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
+      {/* <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/> */}
       <Routes> 
         <Route exact path="/" element={<Homepage />} />
         <Route exact path="/problems" element={<Problems />} />
