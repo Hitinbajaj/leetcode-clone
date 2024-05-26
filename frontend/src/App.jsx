@@ -30,6 +30,6 @@ function App() {
       </div>
   )
 }
-// no state management required
+
 
 export default App
